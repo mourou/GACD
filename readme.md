@@ -14,4 +14,4 @@ A tidy dataset that contains the subject, the activity and the means and standar
 
 A second tidy dataset is created that contains the mean for each variable, for each subject and for each activity.
 
-The files first_tidy_dataset.csv and tidy_dataset contain the initial (mean and standard deviations measurements) and final (averages summarized per subject and per activity).
+The files first_tidy_dataset.txt and tidy_dataset.txt contain the initial (mean and standard deviations measurements) and final (averages summarized per subject and per activity).
