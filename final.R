@@ -32,6 +32,7 @@ std <- grep('std()', colnames(df), fixed = TRUE)
 columns <- c(1, 2, mean, std)
 df <- df[,columns]
 
+write.csv(df, "./first_tidy_dataset.csv")
 df <- tbl_df(df)
 
 ## create summary dataset
