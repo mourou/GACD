@@ -1,0 +1,150 @@
+DATA DICTIONARY 
+DATA SET - first_data_set, second_data_set
+
+SUBJECT
+	Volunteer person used for the experiment (1-30)
+		
+ACTIVITY
+	Description of the activity
+		WALKING
+		WALKING UPSTAIRS
+		WALKING DOWNSTAIRS
+		SITTING
+		STANDING
+		LAYING
+		
+	TIME DOMAIN - BODY ACCELERATION SIGNAL - X, Y, Z AXIS - MEAN
+tBodyAcc-mean()-X 
+tBodyAcc-mean()-Y 
+tBodyAcc-mean()-Z
+
+	TIME DOMAIN - BODY ACCELERATION SIGNAL - X, Y, Z AXIS - STANDARD DEVIATION	
+tBodyAcc-std()-X
+tBodyAcc-std()-Y
+tBodyAcc-std()-Z 
+
+	TIME DOMAIN - GRAVITY ACCELERATION SIGNAL - X, Y, Z, AXIS - MEAN 
+tGravityAcc-mean()-X 
+tGravityAcc-mean()-Y 
+tGravityAcc-mean()-Z
+
+	TIME DOMAIN - GRAVITY ACCELERATION SIGNAL - X, Y, Z, AXIS - STANDARD DEVIATION 
+tGravityAcc-std()-X 
+tGravityAcc-std()-Y 
+tGravityAcc-std()-Z 
+
+	TIME - DOMAIN - BODY LINEAR ACCELERATION JERK SIGNAL - X, Y, Z, AXIS - MEAN
+tBodyAccJerk-mean()-X 
+tBodyAccJerk-mean()-Y 
+tBodyAccJerk-mean()-Z
+
+	TIME DOMAIN - BODY LINEAR ACCELERATION JERK SIGNAL - X, Y, Z, AXIS - STANDARD DEVIATION
+tBodyAccJerk-std()-X 
+tBodyAccJerk-std()-Y 
+tBodyAccJerk-std()-Z
+
+	TIME DOMAIN - ANGULAR VELOCITY - X, Y, Z AXIS - MEAN
+tBodyGyro-mean()-X 
+tBodyGyro-mean()-Y 
+tBodyGyro-mean()-Z
+
+	TIME DOMAIN - ANGULAR VELOCITY - X, Y, Z AXIS - STANDARD DEVIATION
+tBodyGyro-std()-X 
+tBodyGyro-std()-Y 
+tBodyGyro-std()-Z
+
+	TIME DOMAIN - ANGULAR VELOCITY JERK SIGNAL - X, Y, Z AXIS - MEAN
+tBodyGyroJerk-mean()-X 
+tBodyGyroJerk-mean()-Y 
+tBodyGyroJerk-mean()-Z
+
+	TIME DOMAIN - ANGULAR VELOCITY JERK SIGNAL - X, Y, Z AXIS - STANDARD DEVIATION 
+tBodyGyroJerk-std()-X 
+tBodyGyroJerk-std()-Y 
+tBodyGyroJerk-std()-Z 
+
+	TIME DOMAIN - MAGNITUDE BODY ACCELERATOR - MEAN
+tBodyAccMag-mean()
+
+	TIME DOMAIN - MAGNITUDE BODY ACCELERATOR - STANDARD DEVIATION
+tBodyAccMag-std()
+
+	TIME DOMAIN - ANGULAR VELOCITY MAGNITUDE - MEAN 
+tGravityAccMag-mean()
+
+	TIME DOMAIN - ANGULAR VELOCITY MAGNITUDE - STANDARD DEVIATION
+tGravityAccMag-std()
+
+	TIME DOMAIN - BODY ACCELERATOR JERK SIGNAL MAGNITUDE - MEAN
+tBodyAccJerkMag-mean() 
+
+	TIME DOMAIN - BODY ACCELERATOR JERK SIGNAL MAGNITUDE - STANDARD DEVIATION
+tBodyAccJerkMag-std()
+ 
+	TIME DOMAIN - ANGULAR VELOCITY MAGNITUDE - MEAN
+tBodyGyroMag-mean()
+
+	TIME DOMAIN - ANGULAR VELOCITY MAGNITUDE - STANDARD DEVIATION
+tBodyGyroMag-std()
+
+	TIME DOMAIN - ANGULAR VELOCITY JERK SIGNAL MAGNITUDE - MEAN
+tBodyGyroJerkMag-mean()
+
+	TIME DOMAIN - ANGULAR VELOCITY JERK SIGNAL MAGNITUDE - STANDARD DEVIATION
+tBodyGyroJerkMag-std() 
+
+	FREQUENCY DOMAIN - BODY ACCELERATOR - X, Y, Z, AXIS - MEAN
+fBodyAcc-mean()-X
+fBodyAcc-mean()-Y 
+fBodyAcc-mean()-Z
+ 
+	FREQUENCY DOMAIN - BODY ACCELERATOR - X, Y, Z AXIS - STANDARD DEVIATION
+fBodyAcc-std()-X 
+fBodyAcc-std()-Y 
+fBodyAcc-std()-Z
+
+	FREQUENCY DOMAIN - BODY ACCELERATOR JERK SIGNAL - X, Y, Z - MEAN
+fBodyAccJerk-mean()-X 
+fBodyAccJerk-mean()-Y 
+fBodyAccJerk-mean()-Z 
+
+	FREQUENCY DOMAIN - BODY ACCELERATOR JERK SIGNAL - X, Y, Z - STANDARD DEVIATION
+fBodyAccJerk-std()-X 
+fBodyAccJerk-std()-Y 
+fBodyAccJerk-std()-Z 
+	
+	FREQUENCY DOMAIN - ANGULAR VELOCITY - X, Y, Z AXIS - MEAN
+fBodyGyro-mean()-X 
+fBodyGyro-mean()-Y 
+fBodyGyro-mean()-Z
+
+	FREQUENCY DOMAIN - ANGULAR VELOCITY - X, Y, Z AXIS - STANDARD DEVIATION
+fBodyGyro-std()-X 
+fBodyGyro-std()-Y 
+fBodyGyro-std()-Z
+
+	FREQUENCY DOMAIN - BODY ACCELERATOR MAGNITUDE - MEAN 
+fBodyAccMag-mean()
+
+	FREQUENCY DOMAIN - BODY ACCELERATOR MAGNITUDE - STANDARD DEVIATION
+fBodyAccMag-std()
+
+	FREQUENCY DOMAIN - BODY ACCELERATOR JERK SIGNAL MAGNITUDE - STANDARD DEVIATION
+fBodyBodyAccJerkMag-std()
+	
+	FREQUENCY DOMAIN - ANGULAR VELOCITY MAGNITUDE - MEAN
+fBodyBodyGyroMag-mean() 
+
+	FREQUENCY DOMAIN - ANGULAR VELOCITY MAGNITUDE - STANDARD DEVIATION
+fBodyBodyGyroMag-std() 
+
+	FREQUENCY DOMAIN - ANGULAR VELOCITY JERK SIGNAL MAGNITUDE - MEAN
+fBodyBodyGyroJerkMag-mean()
+
+	FREQUENCY DOMAIN - ANGULAR VELOCITY JERK SIGNAL MAGNITUDE - STANDARD DEVIATION
+fBodyBodyGyroJerkMag-std()
+
+
+
+
+
