@@ -1,5 +1,4 @@
-## set the working directory
-setwd("C:/Users/Antonis/Dropbox/Public/coursera/Data Science Specialization/Getting and Cleaning Data/w4")
+
 ## load dplyr package
 library(dplyr)
 
